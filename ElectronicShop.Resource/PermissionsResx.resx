@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AssignRole" xml:space="preserve">
+    <value>role.assign</value>
+    <comment>Gán Vai trò</comment>
+  </data>
+  <data name="CreateAppointment" xml:space="preserve">
+    <value>appointment.create</value>
+    <comment>Tạo mới</comment>
+  </data>
+  <data name="CreateBrand" xml:space="preserve">
+    <value>brand.create</value>
+    <comment>Tạo mới</comment>
+  </data>
+  <data name="CreateCarColor" xml:space="preserve">
+    <value>car.color.create</value>
+    <comment>Tạo mới Màu xe</comment>
+  </data>
+  <data name="CreateCarGrade" xml:space="preserve">
+    <value>car.grade.create</value>
+    <comment>Tạo mới Phiên bản xe</comment>
+  </data>
+  <data name="CreateCarImage" xml:space="preserve">
+    <value>car.image.create</value>
+    <comment>Tạo mới</comment>
+  </data>
+  <data name="CreateCarModel" xml:space="preserve">
+    <value>car.model.create</value>
+    <comment>Tạo mới Dòng xe</comment>
+  </data>
+  <data name="CreateCenterSerives" xml:space="preserve">
+    <value>doc.centerserives.create</value>
+    <comment>Tạo mới Tài liệu - TTDV</comment>
+  </data>
+  <data name="CreateCustommer" xml:space="preserve">
+    <value>customer.create</value>
+    <comment>Tạo mới</comment>
+  </data>
+  <data name="CreateEmailTemplate" xml:space="preserve">
+    <value>email.template.create</value>
+    <comment>Tạo mới Template Email</comment>
+  </data>
+  <data name="CreateLocation" xml:space="preserve">
+    <value>location.create</value>
+    <comment>Tạo mới</comment>
+  </data>
+  <data name="CreateMaintainence" xml:space="preserve">
+    <value>maintainence.create</value>
+    <comment>Tạo mới</comment>
+  </data>
+  <data name="CreateNotificationTemplate" xml:space="preserve">
+    <value>notify.template.create</value>
+    <comment>Tạo mới Template Thông báo</comment>
+  </data>
+  <data name="CreateNotify" xml:space="preserve">
+    <value>notify.create</value>
+    <comment>Tạo mới</comment>
+  </data>
+  <data name="CreateOrganization" xml:space="preserve">
+    <value>org.create</value>
+    <comment>Tạo mới</comment>
+  </data>
+  <data name="CreateProductAndService" xml:space="preserve">
+    <value>doc.productandservice.create</value>
+    <comment>Tạo mới Tài liệu - SPDV</comment>
+  </data>
+  <data name="CreateRole" xml:space="preserve">
+    <value>role.create</value>
+    <comment>Tạo mới Vai trò</comment>
+  </data>
+  <data name="CreateSignalLight" xml:space="preserve">
+    <value>doc.signallight.create</value>
+    <comment>Tạo mới</comment>
+  </data>
+  <data name="CreateSurvey" xml:space="preserve">
+    <value>survey.create</value>
+    <comment>Tạo mới Khảo sát</comment>
+  </data>
+  <data name="CreateSurveyQuestion" xml:space="preserve">
+    <value>survey.question.create</value>
+    <comment>Tạo mới</comment>
+  </data>
+  <data name="CreateUser" xml:space="preserve">
+    <value>user.create</value>
+    <comment>Tạo mới Người dùng</comment>
+  </data>
+  <data name="CreateUserManual" xml:space="preserve">
+    <value>doc.usermanual.create</value>
+    <comment>Tạo mới</comment>
+  </data>
+  <data name="CreateWarrantyInfo" xml:space="preserve">
+    <value>warranty.info.create</value>
+    <comment>Tạo mới</comment>
+  </data>
+  <data name="CreateWarrantyPolicy" xml:space="preserve">
+    <value>warranty.policy.create</value>
+    <comment>Tạo mới</comment>
+  </data>
+  <data name="DeleteAppointment" xml:space="preserve">
+    <value>appointment.delete</value>
+    <comment>Xóa</comment>
+  </data>
+  <data name="DeleteBrand" xml:space="preserve">
+    <value>brand.delete</value>
+    <comment>Xóa</comment>
+  </data>
+  <data name="DeleteCarColor" xml:space="preserve">
+    <value>car.color.delete</value>
+    <comment>Xóa Màu xe</comment>
+  </data>
+  <data name="DeleteCarGrade" xml:space="preserve">
+    <value>car.grade.delete</value>
+    <comment>Xóa Phiên bản xe</comment>
+  </data>
+  <data name="DeleteCarImage" xml:space="preserve">
+    <value>car.image.delete</value>
+    <comment>Xóa</comment>
+  </data>
+  <data name="DeleteCarModel" xml:space="preserve">
+    <value>car.model.delete</value>
+    <comment>Xóa Dòng xe</comment>
+  </data>
+  <data name="DeleteCenterSerives" xml:space="preserve">
+    <value>doc.centerserives.delete</value>
+    <comment>Xóa Tài liệu - TTDV</comment>
+  </data>
+  <data name="DeleteCustommer" xml:space="preserve">
+    <value>customer.delete</value>
+    <comment>Xóa</comment>
+  </data>
+  <data name="DeleteEmailTemplate" xml:space="preserve">
+    <value>email.template.delete</value>
+    <comment>Xóa Template Email</comment>
+  </data>
+  <data name="DeleteLocation" xml:space="preserve">
+    <value>location.delete</value>
+    <comment>Xóa</comment>
+  </data>
+  <data name="DeleteMaintainence" xml:space="preserve">
+    <value>maintainence.delete</value>
+    <comment>Xóa</comment>
+  </data>
+  <data name="DeleteMaintainenceHistoryCustomer" xml:space="preserve">
+    <value>vehiclecustomerinfo.maintainence.delete</value>
+    <comment>Xóa LSBD</comment>
+  </data>
+  <data name="DeleteNotificationTemplate" xml:space="preserve">
+    <value>notify.template.delete</value>
+    <comment>Xóa Template Thông báo</comment>
+  </data>
+  <data name="DeleteNotify" xml:space="preserve">
+    <value>notify.delete</value>
+    <comment>Xóa</comment>
+  </data>
+  <data name="DeleteOrganization" xml:space="preserve">
+    <value>org.delete</value>
+    <comment>Xóa</comment>
+  </data>
+  <data name="DeleteProductAndService" xml:space="preserve">
+    <value>doc.productandservice.delete</value>
+    <comment>Xóa Tài liệu - SPDV</comment>
+  </data>
+  <data name="DeleteRole" xml:space="preserve">
+    <value>role.delete</value>
+    <comment>Xóa Vai trò</comment>
+  </data>
+  <data name="DeleteSignalLight" xml:space="preserve">
+    <value>doc.signallight.delete</value>
+    <comment>Xóa</comment>
+  </data>
+  <data name="DeleteSurvey" xml:space="preserve">
+    <value>survey.delete</value>
+    <comment>Xóa Khảo sát</comment>
+  </data>
+  <data name="DeleteSurveyQuestion" xml:space="preserve">
+    <value>survey.question.delete</value>
+    <comment>Xóa</comment>
+  </data>
+  <data name="DeleteUserManual" xml:space="preserve">
+    <value>doc.usermanual.delete</value>
+    <comment>Xóa</comment>
+  </data>
+  <data name="DeleteWarrantyInfo" xml:space="preserve">
+    <value>warranty.info.delete</value>
+    <comment>Xóa</comment>
+  </data>
+  <data name="DeleteWarrantyPolicy" xml:space="preserve">
+    <value>warranty.policy.delete</value>
+    <comment>Xóa</comment>
+  </data>
+  <data name="EditAppConfig" xml:space="preserve">
+    <value>config.app</value>
+    <comment>Cập nhật Cấu hình App</comment>
+  </data>
+  <data name="EditAppointment" xml:space="preserve">
+    <value>appointment.edit</value>
+    <comment>Cập nhật</comment>
+  </data>
+  <data name="EditBrand" xml:space="preserve">
+    <value>brand.edit</value>
+    <comment>Cập nhật</comment>
+  </data>
+  <data name="EditCarColor" xml:space="preserve">
+    <value>car.color.edit</value>
+    <comment>Cập nhật Màu xe</comment>
+  </data>
+  <data name="EditCarGrade" xml:space="preserve">
+    <value>car.grade.edit</value>
+    <comment>Cập nhật Phiên bản xe</comment>
+  </data>
+  <data name="EditCarImage" xml:space="preserve">
+    <value>car.image.edit</value>
+    <comment>Cập nhật</comment>
+  </data>
+  <data name="EditCarModel" xml:space="preserve">
+    <value>car.model.edit</value>
+    <comment>Cập nhật Dòng xe</comment>
+  </data>
+  <data name="EditCenterSerives" xml:space="preserve">
+    <value>doc.centerserives.edit</value>
+    <comment>Cập nhật Tài liệu - TTDV</comment>
+  </data>
+  <data name="EditCustommer" xml:space="preserve">
+    <value>customer.edit</value>
+    <comment>Cập nhật</comment>
+  </data>
+  <data name="EditEmailConfig" xml:space="preserve">
+    <value>config.email</value>
+    <comment>Cập nhật Cấu hình Email</comment>
+  </data>
+  <data name="EditEmailTemplate" xml:space="preserve">
+    <value>email.template.edit</value>
+    <comment>Cập nhật Template Email</comment>
+  </data>
+  <data name="EditLocation" xml:space="preserve">
+    <value>location.edit</value>
+    <comment>Cập nhật</comment>
+  </data>
+  <data name="EditMaintainence" xml:space="preserve">
+    <value>maintainence.edit</value>
+    <comment>Cập nhập</comment>
+  </data>
+  <data name="EditMaintainenceHistoryCustomer" xml:space="preserve">
+    <value>vehiclecustomerinfo.maintainence.edit</value>
+    <comment>Cập nhật LSBD</comment>
+  </data>
+  <data name="EditNotificationTemplate" xml:space="preserve">
+    <value>notify.template.edit</value>
+    <comment>Cập nhật Template Thông báo</comment>
+  </data>
+  <data name="EditNotify" xml:space="preserve">
+    <value>notify.edit</value>
+    <comment>Cập nhật</comment>
+  </data>
+  <data name="EditOrganization" xml:space="preserve">
+    <value>org.edit</value>
+    <comment>Cập nhật</comment>
+  </data>
+  <data name="EditProductAndService" xml:space="preserve">
+    <value>doc.productandservice.edit</value>
+    <comment>Cập nhật Tài liệu - SPDV</comment>
+  </data>
+  <data name="EditRole" xml:space="preserve">
+    <value>role.edit</value>
+    <comment>Cập nhật Vai trò</comment>
+  </data>
+  <data name="EditSignalLight" xml:space="preserve">
+    <value>doc.signallight.edit</value>
+    <comment>Cập nhật</comment>
+  </data>
+  <data name="EditSmsConfig" xml:space="preserve">
+    <value>config.sms</value>
+    <comment>Cập nhật Cấu hình SMS</comment>
+  </data>
+  <data name="EditSurvey" xml:space="preserve">
+    <value>survey.edit</value>
+    <comment>Cập nhật Khảo sát</comment>
+  </data>
+  <data name="EditSurveyQuestion" xml:space="preserve">
+    <value>survey.question.edit</value>
+    <comment>Cập nhật</comment>
+  </data>
+  <data name="EditUser" xml:space="preserve">
+    <value>user.edit</value>
+    <comment>Cập nhật Người dùng</comment>
+  </data>
+  <data name="EditUserManual" xml:space="preserve">
+    <value>doc.usermanual.edit</value>
+    <comment>Cập nhật</comment>
+  </data>
+  <data name="EditVehicleCustomer" xml:space="preserve">
+    <value>vehiclecustomerinfo.edit</value>
+    <comment>Cập nhật xe</comment>
+  </data>
+  <data name="EditVehicleInfo" xml:space="preserve">
+    <value>vehicleinfo.edit</value>
+    <comment>Cập nhật thông tin xe khách hàng</comment>
+  </data>
+  <data name="EditWarrantyInfo" xml:space="preserve">
+    <value>warranty.info.edit</value>
+    <comment>Cập nhật</comment>
+  </data>
+  <data name="EditWarrantyPolicy" xml:space="preserve">
+    <value>warranty.policy.edit</value>
+    <comment>Cập nhật</comment>
+  </data>
+  <data name="ExportDashboardAciveAppCompany" xml:space="preserve">
+    <value>dashboard.activeapp.company.export</value>
+    <comment>Export: Khách hàng kích hoạt ứng dụng theo đại lý</comment>
+  </data>
+  <data name="MappingVehicleCustomer" xml:space="preserve">
+    <value>vehiclecustomerinfo.insert</value>
+    <comment>Gắn xe</comment>
+  </data>
+  <data name="RemoveVehicleCustomer" xml:space="preserve">
+    <value>vehiclecustomerinfo.delete</value>
+    <comment>Gỡ xe</comment>
+  </data>
+  <data name="SendNotify" xml:space="preserve">
+    <value>notify.send</value>
+    <comment>Gửi</comment>
+  </data>
+  <data name="SyncData" xml:space="preserve">
+    <value>syncdata.sync</value>
+    <comment>Đồng bộ dữ liệu</comment>
+  </data>
+  <data name="SyncDataMappingColor" xml:space="preserve">
+    <value>syncdata.mapping.color</value>
+    <comment>Mapping Màu xe</comment>
+  </data>
+  <data name="SyncDataMappingGrade" xml:space="preserve">
+    <value>syncdata.mapping.grade</value>
+    <comment>Mapping Dòng xe</comment>
+  </data>
+  <data name="ViewConfig" xml:space="preserve">
+    <value>config.view</value>
+    <comment>Xem Cài đặt</comment>
+  </data>
+  <data name="ViewCustommer" xml:space="preserve">
+    <value>customer.view</value>
+    <comment>Xem chi tiết</comment>
+  </data>
+  <data name="ViewDashboardActiveApp" xml:space="preserve">
+    <value>dashboard.activeapp</value>
+    <comment>Kích hoạt ứng dụng</comment>
+  </data>
+  <data name="ViewDashboardActiveAppCompany" xml:space="preserve">
+    <value>dashboard.activeapp.company</value>
+    <comment>Xem thống kê kích hoạt ứng dụng theo đại lý - VPDH</comment>
+  </data>
+  <data name="ViewDashboardAppointment" xml:space="preserve">
+    <value>dashboard.appointment</value>
+    <comment>Đặt lịch hẹn dịch vụ</comment>
+  </data>
+  <data name="ViewDashboardAppointmentDetail" xml:space="preserve">
+    <value>dashboard.appointment.detail</value>
+    <comment>Đặt lịch hẹn dịch vụ chi tiết</comment>
+  </data>
+  <data name="ViewListAppLogAcitivity" xml:space="preserve">
+    <value>logactivity.app.list.view</value>
+    <comment>Xem Dữ liệu Hoạt động App</comment>
+  </data>
+  <data name="ViewListAppointment" xml:space="preserve">
+    <value>appointment.list.view</value>
+    <comment>Xem danh sách</comment>
+  </data>
+  <data name="ViewListBrand" xml:space="preserve">
+    <value>brand.list.view</value>
+    <comment>Xem danh sách</comment>
+  </data>
+  <data name="ViewListCarColor" xml:space="preserve">
+    <value>car.color.list.view</value>
+    <comment>Xem danh sách Màu xe</comment>
+  </data>
+  <data name="ViewListCarGrade" xml:space="preserve">
+    <value>car.grade.list.view</value>
+    <comment>Xem danh sách Phiên bản xe</comment>
+  </data>
+  <data name="ViewListCarImage" xml:space="preserve">
+    <value>car.image.list.view</value>
+    <comment>Xem danh sách</comment>
+  </data>
+  <data name="ViewListCarModel" xml:space="preserve">
+    <value>car.model.list.view</value>
+    <comment>Xem danh sách Dòng xe</comment>
+  </data>
+  <data name="ViewListCenterSerives" xml:space="preserve">
+    <value>doc.centerserives.list.view</value>
+    <comment>Xem danh sách Tài liệu - TTDV</comment>
+  </data>
+  <data name="ViewListCustomer" xml:space="preserve">
+    <value>customer.list.view</value>
+    <comment>Xem danh sách</comment>
+  </data>
+  <data name="ViewListEmailTemplate" xml:space="preserve">
+    <value>email.template.list.view</value>
+    <comment>Xem danh sách Template Email</comment>
+  </data>
+  <data name="ViewListLocation" xml:space="preserve">
+    <value>location.list.view</value>
+    <comment>Xem danh sách</comment>
+  </data>
+  <data name="ViewListMaintainence" xml:space="preserve">
+    <value>maintainence.list.view</value>
+    <comment>Xem danh sách</comment>
+  </data>
+  <data name="ViewListNoficationTempate" xml:space="preserve">
+    <value>notify.template.list.view</value>
+    <comment>Xem danh sách Template Thông báo</comment>
+  </data>
+  <data name="ViewListNotify" xml:space="preserve">
+    <value>notify.list.view</value>
+    <comment>Xem danh sách</comment>
+  </data>
+  <data name="ViewListOrganization" xml:space="preserve">
+    <value>org.list.view</value>
+    <comment>Xem danh sách</comment>
+  </data>
+  <data name="ViewListProductAndService" xml:space="preserve">
+    <value>doc.productandservice.list.view</value>
+    <comment>Xem danh sách Tài liệu - SPDV</comment>
+  </data>
+  <data name="ViewListSignalLight" xml:space="preserve">
+    <value>doc.signallight.list.view</value>
+    <comment>Xem danh sách</comment>
+  </data>
+  <data name="ViewListSurvey" xml:space="preserve">
+    <value>survey.list.view</value>
+    <comment>Xem danh sách Khảo sát</comment>
+  </data>
+  <data name="ViewListSurveyQuestion" xml:space="preserve">
+    <value>survey.question.list.view</value>
+    <comment>Xem danh sách</comment>
+  </data>
+  <data name="ViewListSyncData" xml:space="preserve">
+    <value>syncdata.list.view</value>
+    <comment>Xem danh sách đồng bộ dữ liệu</comment>
+  </data>
+  <data name="ViewListUser" xml:space="preserve">
+    <value>user.list.view</value>
+    <comment>Xem danh sách Người dùng</comment>
+  </data>
+  <data name="ViewListUserManual" xml:space="preserve">
+    <value>doc.usermanual.list.view</value>
+    <comment>Xem danh sách</comment>
+  </data>
+  <data name="ViewListWarrantyInfo" xml:space="preserve">
+    <value>warranty.info.list.view</value>
+    <comment>Xem danh sách</comment>
+  </data>
+  <data name="ViewListWarrantyPolicy" xml:space="preserve">
+    <value>warranty.policy.list.view</value>
+    <comment>Xem danh sách</comment>
+  </data>
+  <data name="ViewRole" xml:space="preserve">
+    <value>role.view</value>
+    <comment>Xem Vai trò</comment>
+  </data>
+  <data name="ViewUser" xml:space="preserve">
+    <value>user.view</value>
+    <comment>Xem chi tiết Người dùng</comment>
+  </data>
+</root>

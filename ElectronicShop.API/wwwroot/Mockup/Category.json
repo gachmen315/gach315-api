@@ -1,0 +1,136 @@
+{
+  "result": true,
+  "code": 200,
+  "data": [
+    {
+      "code": "1",
+      "name": "Đế điện"
+    },
+    {
+      "code": "2",
+      "name": "Đèn ngủ"
+    },
+    {
+      "code": "3",
+      "name": "Đèn pin"
+    },
+    {
+      "code": "4",
+      "name": "Đế pin sạc"
+    },
+    {
+      "code": "5",
+      "name": "Đế thờ"
+    },
+    {
+      "code": "6",
+      "name": "Nguồn 12V"
+    },
+    {
+      "code": "7"
+      "name": "Nguồn 5V + 24V"
+    },
+    {
+      "code": "8",
+      "name": "Khò ga"
+    },
+    {
+      "code": "9",
+      "name": "Khóa VT"
+    },
+    {
+      "code": "10",
+      "name": "Khớp nối"
+    },
+    {
+      "code": "11",
+      "name": "Khởi động từ"
+    },
+    {
+      "code": "12",
+      "name": "Kiềm"
+    },
+    {
+      "code": "13",
+      "name": "Lưỡi cưa"
+    },
+    {
+      "code": "14",
+      "name": "Lưỡi cắt"
+    },
+    {
+      "code": "15",
+      "name": "Led 5m 12V"
+    },
+    {
+      "code": "16",
+      "name": "Led 5m 12V neon"
+    },
+    {
+      "code": "17",
+      "name": "Led Thanh"
+    },
+    {
+      "code": "18",
+      "name": "Led Trang trí"
+    },
+    {
+      "code": "19",
+      "name": "keo và Súng bắn keo"
+    },
+    {
+      "code": "20",
+      "name": "Dụng cụ cầm tay"
+    },
+    {
+      "code": "21",
+      "name": "Hộp nối điện"
+    },
+    {
+      "code": "22",
+      "name": "Dây USB"
+    },
+    {
+      "code": "23",
+      "name": "Dây VGA"
+    },
+    {
+      "code": "24",
+      "name": "Dây Cadivi"
+    },
+    {
+      "code": "25",
+      "name": "Dây Daphaco"
+    },
+    {
+      "code": "26",
+      "name": "Dây HDMI"
+    },
+    {
+      "code": "27",
+      "name": "Dây Loa"
+    },
+    {
+      "code": "28",
+      "name": "Dây Loa + đỏ đèn"
+    },
+    {
+      "code": "29",
+      "name": "Dây Máy in"
+    },
+    {
+      "code": "30",
+      "name": "Dây Mồi"
+    },
+    {
+      "code": "31",
+      "name": "Dây Nguồn"
+    },
+    {
+      "code": "32",
+      "name": "Dây Rút"
+    },
+
+  ],
+  "message": "Success"
+}

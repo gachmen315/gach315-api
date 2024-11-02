@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Truy cập bị từ chối!</value>
+    <comment>Access is denied</comment>
+  </data>
+  <data name="AccountExist" xml:space="preserve">
+    <value>Số điện thoại đã đăng ký tài khoản</value>
+  </data>
+  <data name="AccountInactive" xml:space="preserve">
+    <value>Tài khoản đã bị vô hiệu hóa!</value>
+  </data>
+  <data name="AccountLocked" xml:space="preserve">
+    <value>Tài khoản hiện đang bị khóa,  vui lòng liên hệ Quản trị viên để được trợ giúp!</value>
+    <comment>This account has been locked</comment>
+  </data>
+  <data name="AccountNotExist" xml:space="preserve">
+    <value>Tài khoản này chưa được đăng ký. Vui lòng đăng ký tài khoản</value>
+  </data>
+  <data name="AccountNotInCurrentWebsite" xml:space="preserve">
+    <value>Tài khoản không thuộc trang web này (có thể là Insites), vùi lòng kiểm tra lại hoặc liên hệ Quản trị viên để được trợ giúp!</value>
+    <comment>This account doesn't belong to this Website. Please, check and try again!</comment>
+  </data>
+  <data name="ActivateAccountFail" xml:space="preserve">
+    <value>Token không hợp lệ, vui lòng liên hệ Quản trị viên để được trợ giúp!</value>
+    <comment>Invalid Token, contact Administrator for help.</comment>
+  </data>
+  <data name="ChangePasswordFail" xml:space="preserve">
+    <value>Đổi mật khẩu thấy bại</value>
+    <comment>Change Password Fail</comment>
+  </data>
+  <data name="ChangePasswordSuccess" xml:space="preserve">
+    <value>Đổi mật khẩu thành công</value>
+    <comment>Change Password Success</comment>
+  </data>
+  <data name="CodeExisted" xml:space="preserve">
+    <value>Mã code này đã tồn tại trên hệ thống, vui lòng nhập mã khác!</value>
+  </data>
+  <data name="ConfirmPasswordNotMatch" xml:space="preserve">
+    <value>Mật khẩu mới và xác nhận mật khẩu không khớp, hãy kiểm tra và thử lại!</value>
+    <comment>New password and confirm password does not match, check and try again!</comment>
+  </data>
+  <data name="DataNotFound" xml:space="preserve">
+    <value>Không tìm thấy dữ liệu!</value>
+    <comment>Data not found</comment>
+  </data>
+  <data name="DeleteFail" xml:space="preserve">
+    <value>Xóa thất bại!</value>
+  </data>
+  <data name="DuplicateEmail" xml:space="preserve">
+    <value>Tài khoản của bị trùng lặp dữ liệu, vui lòng liên hệ quản trị viên để được hỗ trợ!</value>
+  </data>
+  <data name="EmailExists" xml:space="preserve">
+    <value>Email đã tồn tại, vui lòng thử lại bằng một email khác!</value>
+    <comment>This email already exists in the system, please try another email!</comment>
+  </data>
+  <data name="EmailExistsInCTV" xml:space="preserve">
+    <value>Email này đã được đăng ký ở hệ thống CTV, vui lòng thử bằng Email khác, hoặc liên hệ quản trị viên để được hỗ trợ!</value>
+  </data>
+  <data name="EmailExistsInERP" xml:space="preserve">
+    <value>Email này đã được đăng ký ở hệ thống Insites, vui lòng thử bằng Email khác, hoặc liên hệ quản trị viên để được hỗ trợ!</value>
+  </data>
+  <data name="EmailNotExsits" xml:space="preserve">
+    <value>Email không tồn tại!</value>
+    <comment>Email does not exists</comment>
+  </data>
+  <data name="EmailOrPhoneNotFound" xml:space="preserve">
+    <value>Không tìm thấy Email hoặc số điện thoại, vui lòng kiểm tra lại!</value>
+    <comment>The Email or Phone number you provided is not found. Check again!</comment>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Thất bại</value>
+  </data>
+  <data name="ImageInvalid" xml:space="preserve">
+    <value>Tệp ảnh không hợp lệ hoặc ảnh có dung lượng quá lớn (&gt;2MB)</value>
+    <comment>Image invalid or image length &gt; 2MB</comment>
+  </data>
+  <data name="InsertFail" xml:space="preserve">
+    <value>Tạo mới thất bại, lỗi không xác định!</value>
+    <comment>InsertFail</comment>
+  </data>
+  <data name="LoginFail" xml:space="preserve">
+    <value>Tài khoản hoặc mật khẩu không đúng!</value>
+    <comment>Invalid username or passoword</comment>
+  </data>
+  <data name="LoginSuccess" xml:space="preserve">
+    <value>Đăng nhập thành công</value>
+  </data>
+  <data name="ParameterNull" xml:space="preserve">
+    <value>Lỗi kỹ thuật: tham số NULL</value>
+    <comment>Parameter Null</comment>
+  </data>
+  <data name="PasswordFail" xml:space="preserve">
+    <value>Mật khẩu không chính xác. Vui lòng nhập đúng mật khẩu</value>
+  </data>
+  <data name="PermissionUnknow" xml:space="preserve">
+    <value>Quyền không xác định!</value>
+  </data>
+  <data name="PhoneNumberExists" xml:space="preserve">
+    <value>Số điện thoại đã tồn tại trong hệ thống, vui lòng thử một số điện thoại khác!</value>
+    <comment>This phone number already exists in the system, please try another phone number!</comment>
+  </data>
+  <data name="PhoneNumberExistsInCTV" xml:space="preserve">
+    <value>Số điện thoại này đã được đăng ký ở hệ thống CTV, vui lòng thử bằng Số điện thoại khác, hoặc liên hệ quản trị viên để được hỗ trợ!</value>
+  </data>
+  <data name="PhoneNumberExistsInERP" xml:space="preserve">
+    <value>Số điện thoại này đã được đăng ký ở hệ thống Insites, vui lòng thử bằng Số điện thoại khác, hoặc liên hệ quản trị viên để được hỗ trợ!</value>
+  </data>
+  <data name="ProductExist" xml:space="preserve">
+    <value>Mã danh mục này đang được gán cho các sản phẩm khác, vui lòng không xóa!</value>
+  </data>
+  <data name="ProductIsPublished" xml:space="preserve">
+    <value>Sản phẩm này đang ở trạng thái công khai nên không thể xóa, vui lòng cập nhật lại trạng thái nếu bạn muốn thực hiện hành động này!</value>
+  </data>
+  <data name="RegisterFail" xml:space="preserve">
+    <value>Đăng ký thất bại, vui lòng thử lại sau giây lát!</value>
+    <comment>Register Fail! Please try again.</comment>
+  </data>
+  <data name="ResetPasswordFail" xml:space="preserve">
+    <value>Đặt lại mật khẩu thất bại!</value>
+    <comment>Reset Password Fail</comment>
+  </data>
+  <data name="RoleExisted" xml:space="preserve">
+    <value>Vai trò đã tồn tại</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Thành công!</value>
+    <comment>Success</comment>
+  </data>
+  <data name="Unauthorized" xml:space="preserve">
+    <value>Chưa đăng nhập/Token hết hạn!</value>
+  </data>
+  <data name="Undefined" xml:space="preserve">
+    <value>Lỗi không xác định</value>
+  </data>
+  <data name="UpdateFail" xml:space="preserve">
+    <value>Cập nhật thất bại, lỗi không xác định!</value>
+    <comment>Update fail</comment>
+  </data>
+  <data name="UploadFileError" xml:space="preserve">
+    <value>Có lỗi khi tải lên, vui lòng đợi trong giây lát và thử lại!</value>
+    <comment>Have an error while uploading, please wait a moment and try again!</comment>
+  </data>
+  <data name="User/StaffNotFound" xml:space="preserve">
+    <value>Không tìm thấy tài khoản!</value>
+    <comment>Couldn't find User/Staff in system!</comment>
+  </data>
+  <data name="UserNameExist" xml:space="preserve">
+    <value>Tên tài khoản đã tồn tại! Vui lòng chọn tên tài khoản khác!</value>
+  </data>
+  <data name="UsernameExists" xml:space="preserve">
+    <value>Hệ thống hiện không thể khởi tạo Username mới cho bạn, vui lòng thử lại sau giây lát!</value>
+    <comment>We are unable to provide you with a new Username at this time, please try again in a moment!</comment>
+  </data>
+  <data name="WrongPassword" xml:space="preserve">
+    <value>Mật khẩu hiện tại không đúng, vui lòng kiểm tra và thử lại!</value>
+    <comment>The current password is incorrect! Please, check and try again!</comment>
+  </data>
+</root>
